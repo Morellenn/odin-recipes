@@ -1,0 +1,58 @@
+/* egg.css */
+
+/* Page background */
+* {
+    background-color: black;
+    text-align: center;
+    list-style-position: inside;
+    font-size: 17px;
+}
+
+/*Center image formatting */
+.lasagnaimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+/* Description */
+.desc {
+    font-size: 24px;
+    color: orange;
+}
+
+/* Main title header */ 
+.main.header {
+    color: orange;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+ /* titles */ 
+.title {
+    font-size: 22px;
+    text-decoration: underline; 
+}
+
+/* Ingredients list */
+.ingred {
+    color: lightpink;
+}
+
+/* Steps to make */
+.steps {
+    color:lightblue;
+}
+
+/* Return link */
+.return {
+    color: lightgoldenrodyellow;
+}
+
+.return:hover{
+    color: lightcoral;
+} 

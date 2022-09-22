@@ -1,0 +1,29 @@
+/* style.css */ 
+
+/* Page background */
+* {
+    background-color: black;
+}
+
+/* Main title formatting */ 
+.main.header {
+    color: orange;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+/* Recipe link formatting */
+.link {
+    display:block;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: lightgoldenrodyellow;
+}
+
+.link:hover{
+    color: lightcoral;
+} 
